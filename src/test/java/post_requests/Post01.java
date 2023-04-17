@@ -48,8 +48,8 @@ public class Post01 extends PetStoreBaseUrl {
 
         //Set the expected data
         Map<String,Object> expectedData = new HashMap<>();
-        expectedData.put("petId",10.0);         //it was actuaally 10, but I take error, I wrote 10.0 -->whatever you send it take it like integer.
-        expectedData.put("quantity",5.0);
+        expectedData.put("petId",10);         //it was actuaally 10, but I take error, I wrote 10.0 -->whatever you send it take it like integer.
+        expectedData.put("quantity",5);
         expectedData.put("shipDate","2022-12-04T12:21:46.297+0000");
         expectedData.put("status","placed");
         expectedData.put("complete",true);
